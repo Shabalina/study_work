@@ -2,8 +2,7 @@
 def fib(intgr):
     x = 0
     y = 1
-    if intgr == 0: return x
-    if intgr == 1: return y
+    if intgr < 2: return intgr
     for i in range(intgr-1):
         fib_num = x+y
         x = y
